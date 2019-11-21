@@ -1,0 +1,47 @@
+﻿@model APILibrary.ComicModel
+
+
+@{
+    ViewBag.Title = "xkcd API Comic Number " + Model.Num.ToString();
+    int current = Model.Num;
+    int previous = current - 1;
+    int next = current + 1;
+}
+
+<hr />
+<div class="container">
+
+    <div class="row">
+        <div class="col-lg-6">
+            @if (Model.btnPrevDisabled)
+            {
+
+                @Html.ActionLink("Previous", "LoadImage", "Home", new { id = previous }, new { @class = "btn btn-primary btn-lg disabled" })
+            }
+            else
+            {
+                @Html.ActionLink("Previous", "LoadImage", "Home", new { id = previous }, new { @class = "btn btn-primary btn-lg" })
+            }
+
+        </div>
+        <div class="col-lg-6">
+            @if (Model.btnNextDisabled)
+            {
+                @Html.ActionLink("Next", "LoadImage", "Home", new { id = next }, new { @class = "btn btn-primary btn-lg disabled" })
+
+            }
+            else
+            {
+                @Html.ActionLink("Next", "LoadImage", "Home", new { id = next }, new { @class = "btn btn-primary btn-lg" })
+            }
+
+        </div>
+    </div>
+</div>
+
+<hr />
+
+<div>
+    <img src=@Model.Img class="img-fluid">
+</div>
+

@@ -1,0 +1,17 @@
+C:\Development\Samples\APIApp\APILibrary\bin\Debug\APILibrary.dll.config
+C:\Development\Samples\APIApp\APILibrary\bin\Debug\APILibrary.dll
+C:\Development\Samples\APIApp\APILibrary\bin\Debug\APILibrary.pdb
+C:\Development\Samples\APIApp\APILibrary\bin\Debug\Newtonsoft.Json.dll
+C:\Development\Samples\APIApp\APILibrary\bin\Debug\System.Net.Http.Formatting.dll
+C:\Development\Samples\APIApp\APILibrary\bin\Debug\Newtonsoft.Json.xml
+C:\Development\Samples\APIApp\APILibrary\bin\Debug\System.Net.Http.Formatting.xml
+C:\Development\Samples\APIApp\APILibrary\obj\Debug\APILibrary.csprojAssemblyReference.cache
+C:\Development\Samples\APIApp\APILibrary\obj\Debug\APILibrary.csproj.CopyComplete
+C:\Development\Samples\APIApp\APILibrary\obj\Debug\APILibrary.dll
+C:\Development\Samples\APIApp\APILibrary\obj\Debug\APILibrary.pdb
+C:\Development\xkcd API\APILibrary\bin\Debug\APILibrary.dll.config
+C:\Development\xkcd API\APILibrary\bin\Debug\APILibrary.dll
+C:\Development\xkcd API\APILibrary\bin\Debug\APILibrary.pdb
+C:\Development\xkcd API\APILibrary\obj\Debug\APILibrary.csproj.CopyComplete
+C:\Development\xkcd API\APILibrary\obj\Debug\APILibrary.dll
+C:\Development\xkcd API\APILibrary\obj\Debug\APILibrary.pdb
